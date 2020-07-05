@@ -6,5 +6,5 @@ include Makefile.docker
 check-version:
 	docker run --rm $(DOCKER_NAMESPACE)/$(DOCKER_IMAGE):$(VERSION) version
 
-update-version:
+update:
 	docker run --rm --entrypoint ncu $(DOCKER_NAMESPACE)/$(DOCKER_IMAGE):$(VERSION) -g
