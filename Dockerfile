@@ -1,4 +1,4 @@
-FROM node:lts-slim
+FROM node:12
 
 RUN npm i -g serverless && \
 	npm i -g npm-check-updates && \
