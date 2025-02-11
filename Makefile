@@ -1,5 +1,5 @@
 DOCKER_IMAGE=serverless
-VERSIONS=2 3
+VERSIONS=3 4
 
 include Makefile.docker
 
